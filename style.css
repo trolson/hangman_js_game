@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+body {
+  text-align: center;
+  font-family: 'Do Hyeon';
+  background: lightblue url("bgmain.jpg") no-repeat fixed center;
+}
+
+section {
+  width: 960px;
+  margin:0 auto;
+}
+
+#wcheader h1 {
+	color: white;
+}
+
+#wcheader {
+  border-radius: 25px;
+  background: url("footybg2.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+}
+
+#usedChars {
+	border-radius: 25px;
+	background-color:rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: center;
+	padding: 15px 15px;
+}
+
+#button1 {
+	background-color: #f44336;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
